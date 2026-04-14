@@ -31,7 +31,7 @@ describe("VALIDATION_BASIC", () => {
     `a forbidden password is invalid`,
     (forbiddenPassword) => {
       expect(isValidPassword(forbiddenPassword)).toBe(false);
-    }
+    },
   );
 });
 
